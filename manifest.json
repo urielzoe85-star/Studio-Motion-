@@ -1,0 +1,36 @@
+{
+  "name": "Motion Studio",
+  "short_name": "Motion Studio",
+  "description": "Studio de motion design IA — Photos, voix off, storyboard automatique.",
+  "id": "/",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0b14",
+  "theme_color": "#0a0b14",
+  "lang": "fr",
+  "categories": ["productivity", "photo", "video"],
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Mode Auto IA",
+      "url": "./#auto",
+      "description": "Lancer la génération automatique"
+    }
+  ]
+}
